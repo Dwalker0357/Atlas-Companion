@@ -9,6 +9,7 @@ app.config["UPLOAD_FOLDER"] = picFolder
 app.config['SECRET_KEY'] = 'fu32nh3u224nfu23nognowdqong23go'
 
 
+
 @app.route("/")
 def home():
     atlas = os.path.join(app.config["UPLOAD_FOLDER"],"atlas.png")
@@ -25,11 +26,57 @@ def home():
 
 
 
-@app.route("/New Vastir", methods = ["Get", "POST"])
+@app.route("/update/<int:maps_id>", methods= ["GET", "POST"])
+def Update_Map(maps_id):
+    Map = maps.query.get_or_404(maps_id)
+    form = Map_Create_Form()
+    if form.validate_on_submit():
+        Map.regions_id = form.regions_id.data
+        Map.name = form.name.data
+        Map.base_tier = form.base_tier.data
+        Map.max_tier = form.max_tier.data
+        Map.Layout =  form.Layout.data
+        Map.boss = form.boss.data
+        db.session.commit()
+        return redirect(url_for("home", maps_id=maps.id))
+
+
+    elif request.method == "GET":
+        form.name.data = Map.name
+        form.regions_id.data = Map.regions_id
+        form.base_tier.data = Map.base_tier
+        form.max_tier.data = Map.max_tier
+        form.Layout.data = Map.Layout
+        form.boss.data = Map.boss
+    return render_template("maps.html", title="Update Maps", form=form, legend="Update Map")
+
+
+
+
+
+@app.route("/delete/<int:maps_id>", methods = ["GET", "POST"])
+def Delete_Map(maps_id):
+    Map = maps.query.get_or_404(maps_id)
+    db.session.delete(Map)
+    db.session.commit()
+
+    return redirect(url_for("home"))
+
+
+
+
+
+@app.route("/New Vastir", methods = ["GET", "POST"])
 def New_Vastir():
     Vastir = os.path.join(app.config["UPLOAD_FOLDER"], "New_Vastir_Tree.png")
     Vastir_Title = os.path.join(app.config["UPLOAD_FOLDER"], "New_Vastir_Title.png")
     Button = os.path.join(app.config["UPLOAD_FOLDER"], "Home_Button.png")
+    
+    Map = maps.id
+    table = maps.query.filter_by(regions_id=7)
+    headings = ("Map Name", "Base Tier", "Max Tier", "Layout", "Boss Count")
+
+
     form = Map_Create_Form()
     if form.validate_on_submit():
         new_map = maps( 
@@ -49,12 +96,14 @@ def New_Vastir():
     NV_image = Vastir,
     NV_Title = Vastir_Title,
     HomeB = Button,
-    form = form)
+    form = form,
+    headings = headings,
+    Map = Map,
+    table = table)
 
 
 
-
-
+    
 @app.route("/New Vastir Skill Tree")
 def New_Vastir_Tree():
     NVTree = os.path.join(app.config["UPLOAD_FOLDER"], "New_Vastir_Tree.png")

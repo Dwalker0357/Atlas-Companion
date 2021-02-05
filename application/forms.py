@@ -12,7 +12,6 @@ class Map_Create_Form(FlaskForm):
     validators=[DataRequired()])
     
     base_tier = IntegerField("Base Map Tier", validators=[DataRequired()])
-    
     max_tier = IntegerField("Maximum Map Tier", validators=[DataRequired()])  
     
     Layout = SelectField("Layout Rating", choices=
@@ -27,4 +26,5 @@ class Map_Create_Form(FlaskForm):
         
         if map_name:
             raise ValidationError("That Map already exists")
+
 
