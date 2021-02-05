@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body bgcolor="#00000">
+
+	<center><form style="color:white" method ="POST" action="">
+                {{ form.hidden_tag() }}
+                <fieldset class="form-group">
+                        <center><legend>Update Map</legend></center>
+                        <br>
+                       <div style= class="form-group">
+                                {{ form.regions_id.label(class="form-control-label") }}
+                                {{ form.regions_id(class="form-control form-control-lg") }}
+                        <br>
+                        </div>
+                        <div style= class="form-group">
+                                {{ form.Layout.label(class="form-control-label") }}
+                                {{ form.Layout(class="form-control form-control-lg") }}
+
+                        <br>
+                        <div class="form-group">
+                                {{ form.name.label(class="form-control-label") }}
+                                {{ form.name(class="form-control form-control-lg") }}
+                        </div>
+
+                        <div class="form-group">
+                                {{ form.base_tier.label(class="form-control-label") }}
+                                {{ form.base_tier(class="form-control form-control-lg") }}
+                        </div>
+                        <br>
+                        <div class="form-group">
+                                {{ form.max_tier.label(class="form-control-label") }}
+                                {{ form.max_tier(class="form-control form-control-lg") }}
+                        </div>
+
+                         <div class="form-group">
+                                {{ form.boss.label(class="form-control-label") }}
+                                {{ form.boss(class="form-control form-control-lg") }}
+
+                        </div>
+                        </fieldset>
+                        <center><div class="form-group"></center>
+                                {{ form.submit(class="btn btn-outline-info") }}
+                        </div>
+		</form></center>
+
+</body>
+
+
+
+
+
+</html>
+

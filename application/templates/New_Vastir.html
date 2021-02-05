@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>New Vastir</title>
+
+<center><img src ="{{ NV_Title }}"><center>
+
+<a href="{{ url_for('home') }}">
+<img align="left" width "110" height="90" src="{{ HomeB }}"></a>
+
+
+</head>
+<body bgcolor="#00000">
+	<form style="color:white" method ="POST" action="">
+                {{ form.hidden_tag() }}
+		<fieldset class="form-group">
+			<center><legend>Map Creation</legend></center>
+			<br>
+		       <div style= class="form-group">
+                                {{ form.regions_id.label(class="form-control-label") }}
+                                {{ form.regions_id(class="form-control form-control-lg") }}
+			<br>
+			</div>
+			<div style= class="form-group">
+                                {{ form.Layout.label(class="form-control-label") }}
+                                {{ form.Layout(class="form-control form-control-lg") }}
+
+			<br>
+			<div class="form-group">
+                                {{ form.name.label(class="form-control-label") }}
+                                {{ form.name(class="form-control form-control-lg") }}
+                        </div>
+			
+                        <div class="form-group">
+                                {{ form.base_tier.label(class="form-control-label") }}
+                                {{ form.base_tier(class="form-control form-control-lg") }}
+			</div>
+		        <br>	
+                        <div class="form-group">
+                                {{ form.max_tier.label(class="form-control-label") }}
+                                {{ form.max_tier(class="form-control form-control-lg") }}
+                        </div>
+			
+                         <div class="form-group">
+                                {{ form.boss.label(class="form-control-label") }}
+                                {{ form.boss(class="form-control form-control-lg") }}
+                      
+			</div>
+                        </fieldset>
+			<center><div class="form-group"></center>
+                                {{ form.submit(class="btn btn-outline-info") }}
+                        </div>
+	</form>
+		
+</head>
+<body>	
+
+<a href="{{ url_for('New_Vastir_Tree') }}" target="_blank">
+<img align="right" width="640" height="360" src ="{{ NV_image }}"></a>
+
+
+
+<center><table style ="width:22.5%" style="color:white"> 
+	<tr>
+		{% for header in headings %}
+		<th style="color:white"> {{ header }}</th>
+		{% endfor %}
+	</tr>
+	{% for Map in table %}
+	<tr style="color:white">
+		<td>{{ Map.name }}</td><td>{{ Map.base_tier }}</td><td>{{ Map.max_tier }}</td><td>{{ Map.Layout }}</td><td>{{ Map.boss }}</td>
+	 
+	</tr>
+	{% endfor %}
+	</table></center>
+
+
+
+
+
+
+
+
+
+
+
+	 
+</body>
+</html>
+
