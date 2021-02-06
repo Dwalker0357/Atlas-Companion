@@ -16,6 +16,7 @@ distro-info===0.18ubuntu0.18.04.1
 ec2-hibinit-agent==1.0.0
 Flask==1.1.2
 Flask-SQLAlchemy==2.4.4
+Flask-Testing==0.8.1
 Flask-WTF==0.14.3
 gunicorn==20.0.4
 hibagent==1.0.1
