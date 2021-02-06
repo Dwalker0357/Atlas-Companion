@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<center><title>Atlas Companion</title><center>
+<center><img src= "{{title_image}}"></center>
+<br>
+<center><h3 style="color:#fa0015";>Click to Navigate</h3><center>
+
+
+</head>
+<body bgcolor="#00000">
+
+<a href="{{ url_for('Divination_Cards') }}">
+<img align="left" width="250" height="125" hspace="160" src= "{{div_card_icon}}"></a>
+
+
+
+<center><img src="{{home_image}}" usemap="#image-map" vspace="50"></center>
+
+<map name="image-map">
+    <area target="" alt="Tirn's End" title="Tirn's End" href="{{ url_for('Tirns_End') }}" coords="434,237,573,155,635,134,659,189,676,245,665,319,735,381,658,432,627,507,520,447,473,449,428,465,352,464,284,449,240,398,229,345,338,290,390,257" shape="poly">
+    <area target="" alt="Lex Proxima" title="Lex Proxima" href="{{ url_for('Lex_Proxima') }}" coords="648,136,932,137,955,170,1019,187,1070,219,1097,272,1129,352,1242,408,1271,429,1295,520,1242,529,1197,569,1148,628,1142,682,1108,743,1061,773,1040,760,1023,718,957,675,926,599,864,556,866,467,832,420,783,397,733,377,667,320,675,231,641,132,641,134,646,136,643,134,641,132,652,138,641,134,646,136,643,134,652,138,643,133" shape="poly">
+    <area target="" alt="Valdo's Rest" title="Valdo's Rest" href="{{ url_for('Valdos_Rest') }}" coords="1042,905,981,909,786,909,641,911,656,877,684,832,703,792,713,745,711,696,696,648,707,628,707,628,705,628,779,633,834,607,866,563,921,599,957,682,1021,722,1034,766,1065,779,1049,811,1051,868,1042,905,1042,907,1042,909,1042,905,1042,907,1042,909,1040,907,1042,907,1040,907" shape="poly">
+    <area target="" alt="Glennach Cairns" title="Glennach Cairns" href="{{ url_for('Glennach_Cairns') }}" coords="340,463,281,444,240,393,226,346,221,391,168,435,126,446,137,486,232,662,330,762,408,760,442,788,463,843,523,858,561,913,648,913,660,860,679,839,705,788,713,724,701,650,705,624,654,582,633,512,518,446,476,450,417,467" shape="poly">
+    <area target="" alt="Haewark Hamlet" title="Haewark Hamlet" href="{{ url_for('Haewark_Hamlet') }}" coords="94,459,162,428,215,402,228,338,381,262,480,211,565,158,637,135,595,94,436,96,344,96,294,94,232,94,166,94,141,43,86,39,45,79,60,130,94,141" shape="poly">
+    <area target="" alt="Lex Ejoris" title="Lex Ejoris" href="{{ url_for('Lex_Ejoris') }}" coords="1112,316,1093,267,1068,216,1015,185,953,170,926,134,972,96,1099,94,1212,99,1271,99,1341,99,1343,65,1375,37,1437,45,1458,103,1415,147,1403,200,1407,561,1354,538,1295,525,1271,433,1244,410,1184,382,1127,354" shape="poly">
+    <area target="" alt="New Vastir" title="New Vastir" href="{{ url_for('New_Vastir') }}" coords="531,861,463,848,446,791,404,761,336,763,306,738,234,668,213,627,147,502,124,449,94,459,97,716,98,716,98,716,98,814,98,910,264,914,561,914" shape="poly">
+    <area target="" alt="Lira Arthain" title="Lira Arthain" href="{{ url_for('Lira_Arthain') }}" coords="1049,914,1055,865,1046,823,1068,772,1114,733,1142,678,1150,627,1186,580,1235,536,1280,523,1331,530,1407,559,1407,557,1407,555,1407,557,1407,914,1138,912,1051,912,1051,912,1053,914" shape="poly">
+    <area target="" alt="Uncharted Realms" title="Uncharted Realms" href="{{ url_for('Uncharted_Realms') }}" coords="752,512,115" shape="circle">
+</map>
+</body>
+
+
+
+
+
+
+</html>
