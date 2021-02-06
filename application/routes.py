@@ -74,7 +74,7 @@ def New_Vastir():
     
     Map = maps.id
     table = maps.query.filter_by(regions_id=7)
-    headings = ("Map Name", "Base Tier", "Max Tier", "Layout", "Boss Count")
+    headings = ("Map ID","Region ID","Map Name", "Base Tier", "Max Tier", "Layout", "Boss Count")
 
 
     form = Map_Create_Form()
@@ -132,7 +132,7 @@ def Lex_Ejoris():
 @app.route("/Lex Ejoris Skill Tree")
 def Lex_Ejoris_Tree():
     LETree = os.path.join(app.config["UPLOAD_FOLDER"], "Lex_Ejoris_Tree.png")
-    return render_template("Lex_Ejoris_Tree.html", LE_image = LETree, headings=headings, data=data)
+    return render_template("Lex_Ejoris_Tree.html", LE_image = LETree)
 
 
 

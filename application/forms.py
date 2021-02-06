@@ -21,10 +21,6 @@ class Map_Create_Form(FlaskForm):
     
     submit = SubmitField('Submit')
 
-    def validate_name(self, name):
-        map_name = maps.query.filter_by(name=name.data).first()
-        
-        if map_name:
-            raise ValidationError("That Map already exists")
+
 
 
