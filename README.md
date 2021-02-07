@@ -174,7 +174,7 @@ __**<h1>Completed Application showcase:</h1>**__
 <br>
 
 
-<h1>__**<h1>Conclusion</h1>**__
+__**<h1>Conclusion</h1>**__
  
  
  <br>
