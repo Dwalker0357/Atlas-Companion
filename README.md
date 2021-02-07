@@ -82,7 +82,7 @@ __**<h1>Risk Assessment<h1>**__
 
 
 
-__**<h1>Challenges faced and project evolution<h1>**__
+__**Challenges faced and project evolution**__
 
 <br>
 My first challenge was creating my tables and implementing my relationships so I can query all the data I wanted. I initially had four tables but I soon realised the limitations of SQL, I had to create another table Cmap, so I could map as many divination cards to as many maps as I wanted using the corresponding foreign keys and as many to many relationships.
@@ -97,18 +97,18 @@ Moving forward I will take more consideration when designing, creating, and inte
 <br>
                                                                         
                                                                       
-__**<h2> Completed Application showcase:<h2>**__
+__**Completed Application showcase:**__
    
 <br>
 
-<h3>Interactive hyperlinked global region map<h3>
+Interactive hyperlinked global region map
   
 ![](readme_pics/atlas_home.png)
 
 <br>
 <br>
 
-<h3>The Html code behide the image mapping and home page<h3>
+The Html code behide the image mapping and home page
 
 <br>
 
@@ -117,8 +117,8 @@ __**<h2> Completed Application showcase:<h2>**__
 
 <br>
 
-<h3> My New Vastir Region page with implemented create form and filtered map display table<h3>
-  
+My New Vastir Region page with implemented create form and filtered map display table
+ 
   <br>
   
   ![](readme_pics/new_vastir.png)
@@ -126,7 +126,7 @@ __**<h2> Completed Application showcase:<h2>**__
 
 <br>
 
-<h3> Expanded skill tree image that opens in a new tab<h3>
+Expanded skill tree image that opens in a new tab
   
   <br>
   
@@ -137,7 +137,7 @@ __**<h2> Completed Application showcase:<h2>**__
   <br>
   
   
-  __**<h1>Video Demonstration of my application and all its features<h1>**__
+  __**Video Demonstration of my application and all its features**__
   
  
  <br> 
@@ -149,8 +149,8 @@ __**<h2> Completed Application showcase:<h2>**__
   <br>
   
   
-  <h1> Application Test Coverage Report using Flask Pytest <h1>
- 
+  Application Test Coverage Report using Flask Pytest 
+
   
   <br>
   
@@ -160,7 +160,7 @@ __**<h2> Completed Application showcase:<h2>**__
   
   <br>
   
-  <h1> Application being deployed with jenkins via gunicorn<h1>
+  Application being deployed with jenkins via gunicorn
  
  <br>
  
@@ -171,7 +171,7 @@ __**<h2> Completed Application showcase:<h2>**__
 <br>
 
 
-__**<h1> Conclusion<h1>**__
+__**Conclusion**__
  
  
  <br>
