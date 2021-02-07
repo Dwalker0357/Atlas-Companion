@@ -146,7 +146,7 @@ __**<h1>Completed Application showcase:</h1>**__
  <br> 
   
   
-  <img src="readme_pics/Demo.gif" width="1280" height="720"/>
+  <img src="readme_pics/Demo.gif" width="854" height="480"/>
   
   
   <br>
