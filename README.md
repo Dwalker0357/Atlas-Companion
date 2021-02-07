@@ -91,7 +91,7 @@ My first challenge was creating my tables and implementing my relationships so I
 My Second challenge, and definitely my biggest, was trying to implement my pre-existing mysql database into my application, I tried on and off but mostly on for around three days to get it to work but it just refused to.
 <br>
 <br>
-So I learned a very valuable lesson that it is almost always better to build your SQL tables using the flask db.models classes, in hindsight I would have saved a lot of time troubleshooting. which I would have used to add features to my application.
+So I learned a very valuable lesson that it is almost always better to build your SQL tables using the flask db.models classes. In hindsight, it would have saved me a lot of time troubleshooting, time in which I could have used to add features to my application.
 <br>
 <br>
 As a result of my issues during the development, I was unable to add all the features I planned to due to time restrictions, managing to only add the CRUD functionally of maps.
@@ -179,7 +179,7 @@ __**<h1>Conclusion</h1>**__
  <br>
  
 
-In conclusion, I think for the current knowledge I processed during my first project and what I possess now is night and day, If I were to face the same challenges that stunted my development I feel that would be able to overcome them in a fraction of the time.
+In conclusion, I think the knowledge I possessed during my first project in comparison to what I know now is night and day, If I were to face the same challenges that stunted my development I feel that would be able to overcome them in a fraction of the time.
 
 <br>
 
