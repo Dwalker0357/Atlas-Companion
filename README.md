@@ -29,7 +29,7 @@ Atlas Companion was a passion project created that uses python3-flask, jinja2's 
 ![](readme_pics/trello.png)
 
 <br>
-<h1>My database would consist of five tables seen below in my ERD diagram:</h1>
+<h3>My database would consist of five tables seen below in my ERD diagram:</h3>
 <br>
 <br>
 
@@ -56,7 +56,7 @@ And for the reverse for what maps contain a single divination card:
 
 <br>
 <br>
-My SQL database defined as db. Models and built using create.py:
+<h3>My SQL database defined as db. Models and built using create.py:</h3>
 
 <br>
 
