@@ -8,7 +8,7 @@ Atlas Companion was a passion project created that uses python3-flask, jinja2's 
  
 <br>
 
-<h1>The initial goals of the app were the following:<h1>
+The initial goals of the app were the following:
 
 • Create an image-mapped multi hyperlinked home page that linked to each corresponding page. 
 <br>
