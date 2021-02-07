@@ -146,7 +146,7 @@ __**<h1>Completed Application showcase:</h1>**__
  <br> 
   
   
-  ![](readme_pics/Demo.mp4)
+  ![](readme_pics/Demo.gif)
   
   
   <br>
