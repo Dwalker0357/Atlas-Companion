@@ -8,7 +8,7 @@ Atlas Companion was a passion project created that uses python3-flask, jinja2's 
  
 <br>
 
-The initial goals of the app were the following:
+<h1>The initial goals of the app were the following<h1>
 
 • Create an image-mapped multi hyperlinked home page that linked to each corresponding page. 
 <br>
@@ -101,14 +101,14 @@ __**<h2> Completed Application showcase:<h2>**__
    
 <br>
 
-<h3>Interactive hyperlinked global region map:<h3>
+<h3>Interactive hyperlinked global region map<h3>
   
 ![](readme_pics/atlas_home.png)
 
 <br>
 <br>
 
-<h3>The Html code behide the image mapping and home page:<h3>
+<h3>The Html code behide the image mapping and home page<h3>
 
 <br>
 
@@ -117,7 +117,7 @@ __**<h2> Completed Application showcase:<h2>**__
 
 <br>
 
-<h3> My New Vastir Region page with implemented create form and filtered map display table:<h3>
+<h3> My New Vastir Region page with implemented create form and filtered map display table<h3>
   
   <br>
   
@@ -126,7 +126,7 @@ __**<h2> Completed Application showcase:<h2>**__
 
 <br>
 
-<h3> Expanded skill tree image that opens in a new tab:<h3>
+<h3> Expanded skill tree image that opens in a new tab<h3>
   
   <br>
   
@@ -137,7 +137,7 @@ __**<h2> Completed Application showcase:<h2>**__
   <br>
   
   
-  __**<h1>Video Demonstration of my application and all its features:<h1>**__
+  __**<h1>Video Demonstration of my application and all its features<h1>**__
   
  
  <br> 
@@ -149,8 +149,8 @@ __**<h2> Completed Application showcase:<h2>**__
   <br>
   
   
-  <h1> Application Test Coverage Report using Flask Pytest:
-  
+  <h1> Application Test Coverage Report using Flask Pytest <h1>
+ 
   
   <br>
   
@@ -160,7 +160,7 @@ __**<h2> Completed Application showcase:<h2>**__
   
   <br>
   
-  <h1> Application being deployed with jenkins via gunicorn:<h1>
+  <h1> Application being deployed with jenkins via gunicorn<h1>
  
  <br>
  
@@ -171,7 +171,7 @@ __**<h2> Completed Application showcase:<h2>**__
 <br>
 
 
-__**<h1> Conclusion:<h1>**__
+__**<h1> Conclusion<h1>**__
  
  
  <br>
