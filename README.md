@@ -70,7 +70,7 @@ My SQL database defined as db. Models and built using create.py:
 <br>
 <br>
 
-__**<h1>Risk Assessment<h1>**__
+__**Risk Assessment**__
 
 <br>
 
