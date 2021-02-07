@@ -87,9 +87,12 @@ __**<h1>Challenges faced and project evolution</h1>**__
 <br>
 My first challenge was creating my tables and implementing my relationships so I can query all the data I wanted. I initially had four tables but I soon realised the limitations of SQL, I had to create another table Cmap, so I could map as many divination cards to as many maps as I wanted using the corresponding foreign keys and as many to many relationships.
 <br>
+<br>
 My Second challenge, and definitely my biggest, was trying to implement my pre-existing mysql database into my application, I tried on and off but mostly on for around three days to get it to work but it just refused to.
 <br>
+<br>
 So I learned a very valuable lesson that it is almost always better to build your SQL tables using the flask db.models classes, in hindsight I would have saved a lot of time troubleshooting. which I would have used to add features to my application.
+<br>
 <br>
 As a result of my issues during the development, I was unable to add all the features I planned to due to time restrictions, managing to only add the CRUD functionally of maps.
 Moving forward I will take more consideration when designing, creating, and integrating databases into my application and will always make sure to create them using flask where ever possible. 
@@ -171,7 +174,7 @@ __**<h1>Completed Application showcase:</h1>**__
 <br>
 
 
-<h1>__**Conclusion**__</h1>
+<h1>__**<h1>Conclusion</h1>**__
  
  
  <br>
