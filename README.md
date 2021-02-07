@@ -8,7 +8,7 @@ Atlas Companion was a passion project created that uses python3-flask, jinja2's 
  
 <br>
 
-<h1>The initial goals of the app were the following</h1>
+<h1>The initial goals of the app were the following:</h1>
 
 • Create an image-mapped multi hyperlinked home page that linked to each corresponding page. 
 <br>
@@ -29,7 +29,7 @@ Atlas Companion was a passion project created that uses python3-flask, jinja2's 
 ![](readme_pics/trello.png)
 
 <br>
-My database would consist of five tables seen below in my ERD diagram:
+<h1>My database would consist of five tables seen below in my ERD diagram:</h1>
 <br>
 <br>
 
@@ -70,7 +70,7 @@ My SQL database defined as db. Models and built using create.py:
 <br>
 <br>
 
-__**Risk Assessment**__
+__**<h1>Risk Assessment</h1>**__
 
 <br>
 
@@ -82,7 +82,7 @@ __**Risk Assessment**__
 
 
 
-__**Challenges faced and project evolution**__
+__**<h1>Challenges faced and project evolution</h1>**__
 
 <br>
 My first challenge was creating my tables and implementing my relationships so I can query all the data I wanted. I initially had four tables but I soon realised the limitations of SQL, I had to create another table Cmap, so I could map as many divination cards to as many maps as I wanted using the corresponding foreign keys and as many to many relationships.
@@ -97,18 +97,18 @@ Moving forward I will take more consideration when designing, creating, and inte
 <br>
                                                                         
                                                                       
-__**Completed Application showcase:**__
+__**<h1>Completed Application showcase:</h1>**__
    
 <br>
 
-Interactive hyperlinked global region map
+<h3>Interactive hyperlinked global region map</h3>
   
 ![](readme_pics/atlas_home.png)
 
 <br>
 <br>
 
-The Html code behide the image mapping and home page
+<h3>The Html code behide the image mapping and home page</h3>
 
 <br>
 
@@ -117,7 +117,7 @@ The Html code behide the image mapping and home page
 
 <br>
 
-My New Vastir Region page with implemented create form and filtered map display table
+<h3>My New Vastir Region page with implemented create form and filtered map display table</h3>
  
   <br>
   
@@ -126,7 +126,7 @@ My New Vastir Region page with implemented create form and filtered map display 
 
 <br>
 
-Expanded skill tree image that opens in a new tab
+<h3>Expanded skill tree image that opens in a new tab</h3>
   
   <br>
   
@@ -137,7 +137,7 @@ Expanded skill tree image that opens in a new tab
   <br>
   
   
-  __**Video Demonstration of my application and all its features**__
+  __**<h1>Video Demonstration of my application and all its features</h1>**__
   
  
  <br> 
@@ -149,7 +149,7 @@ Expanded skill tree image that opens in a new tab
   <br>
   
   
-  Application Test Coverage Report using Flask Pytest 
+  <h1>Application Test Coverage Report using Flask Pytest</h1> 
 
   
   <br>
@@ -160,7 +160,7 @@ Expanded skill tree image that opens in a new tab
   
   <br>
   
-  Application being deployed with jenkins via gunicorn
+  <h1>Application being deployed with jenkins via gunicorn</h1>
  
  <br>
  
@@ -171,7 +171,7 @@ Expanded skill tree image that opens in a new tab
 <br>
 
 
-__**Conclusion**__
+<h1>__**Conclusion**__</h1>
  
  
  <br>
