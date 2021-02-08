@@ -26,7 +26,7 @@ Atlas Companion was a passion project created that uses python3-flask, jinja2's 
 <br>
 • A search bar located on the home page to quickly navigate to the information you are looking for
 
-![](readme_pics/trello.png)
+![](readme_pics/Trello.png)
 
 <br>
 <h3>My database would consist of five tables seen below in my ERD diagram:</h3>
